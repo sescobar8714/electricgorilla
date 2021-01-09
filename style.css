@@ -1,0 +1,146 @@
+
+
+  .spacer {
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    border: 2px solid blue;
+    background-image: url("5a219d253dbef48d0e8b9648.jpg");
+    background-position:  center right;
+
+  }
+
+/* .l-spacer {
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    border: 2px solid blue;
+    background-image: url("E5z7gt.jpg");
+    background-position: ;
+
+} */
+
+
+  .info-spacer {
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    border: 2px solid hotpink;
+    background-image: url("chicago_background.jpg");
+    background-position: center right;
+  }
+
+  .img-1 {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    image-rendering: crisp-edges;
+    border: 1px solid purple;
+  }
+
+  .img-2 {
+      height: 300px;
+      width: 100%;
+      background-position: top left;
+      border: 1px solid purple;
+  }
+
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  body {
+      background-image: url("photo-1516528387618-afa90b13e000.jpg");
+      background-size: cover;
+  }
+
+  #nav-bar {
+      width: 75%;
+  }
+
+  #header-title{
+    font-family:'Bungee Outline', cursive;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  a#header-title {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+
+  a {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+
+  h5#exampleModalLongTitle {
+    text: center;
+  }
+
+  .magic-slider .card-body {
+    top: 100%;
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .magic-slider:hover .card-body {
+    position: absolute; 
+    top: 0; 
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    color: white;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s;
+  }
+
+   .modal-body#about-us-body {
+    background-image:url(Resized_20201230_153323001.jpeg);
+    background-size: cover;
+    color: white;
+  } 
+
+  #insta-icon {
+    size: 100px
+  }
